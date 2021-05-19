@@ -1,0 +1,184 @@
+body {
+  background-color: #f1f2f5;
+  font-family: helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+#main {
+  margin-top: 0;
+}
+
+#menu {
+  background-color: #f1f2f5;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 5px 0;
+  text-align: center;
+  position: fixed;
+}
+
+#menu a {
+  text-decoration: none;
+  font-size: 20px;
+  margin: 30px;
+  text-align: center;
+  padding: 0;
+}
+
+#menu ul li {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  display: inline-block;
+  list-style-type: none;
+}
+
+.menu1 {
+  color: #333;
+}
+.menu2 {
+  color: #c4170c;
+}
+.menu3 {
+  color: #0669de;
+}
+.menu4 {
+  color: #06aa48;
+}
+.menu5 {
+  color: #ec7d00;
+}
+
+.principal {
+  margin: auto;
+  padding: 100px;
+  background-color: white;
+  width: 80%;
+  display: flex;
+}
+
+.noticia-grande {
+  width: 49%;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #f1f1f1;
+  padding-top: 22%;
+}
+
+#noticia1,
+#noticia2,
+#noticia3 {
+  border-radius: 10px;
+  margin: 5px;
+}
+
+.noticias-grid {
+  display: inline-block;
+  width: 50%;
+}
+
+#noticia1 h1 {
+  margin: 22px;
+  color: #c4170c;
+}
+
+#noticia2,
+#noticia3 {
+  width: 100%;
+}
+.listasDeNoticias {
+  margin: auto;
+  padding-bottom: 0;
+  padding-left: 100px;
+  padding-right: 100px;
+  background-color: white;
+  width: 80%;
+  display: flex;
+}
+.noticiasComImagens {
+  background-color: white;
+  margin: 1%;
+  width: 50%;
+}
+
+.listaDeLinks {
+  background-color: white;
+  margin: 1%;
+  width: 50%;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #f1f1f1;
+}
+.listaDeLinks h3 {
+  margin: 8%;
+}
+.listaDeLinks h4 {
+  color: #c4170c;
+}
+
+.listaDeLinks ol {
+  margin: 5%;
+}
+
+ul {
+  list-style: none;
+}
+
+#rodape p {
+  text-align: center;
+  color: white;
+  background-color: #0669de;
+  width: 100%;
+  color: white;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin-bottom: 0;
+}
+
+img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.entre-em-contato {
+  display: grid;
+  width: 80%;
+}
+
+/*CSS da página fale_conosco*/
+
+.formulario {
+  display: grid;
+  margin: 5%;
+}
+.formulario input,
+select,
+textarea {
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+#formButton {
+  background-color: #ec7d00;
+  color: white;
+  border: none;
+  padding: 10px 23px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 4px 2px;
+}
+
+#formButton:hover {
+  background-color: #e3672b;
+  color: white;
+}
